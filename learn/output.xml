@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20191207 21:06:48.920" rpa="false">
+<suite id="s1" name="Learn" source="C:\Users\gaura\Downloads\WorkSpace_RF\learn">
+<suite id="s1-s1" name="soapTest" source="C:\Users\gaura\Downloads\WorkSpace_RF\learn\soapTest.robot">
+<test id="s1-s1-t1" name="TC01">
+<kw name="Create Soap Client" library="SudsLibrary">
+<doc>Loads a WSDL from the given URL/path and creates a Suds SOAP client.</doc>
+<arguments>
+<arg>http://ombre42.github.io/robotframework-sudslibrary/doc/SudsLibrary.html</arg>
+</arguments>
+<msg timestamp="20191207 21:06:50.242" level="FAIL">SAXParseException: &lt;unknown&gt;:157:121: not well-formed (invalid token)</msg>
+<status status="FAIL" starttime="20191207 21:06:49.119" endtime="20191207 21:06:50.242"></status>
+</kw>
+<status status="FAIL" starttime="20191207 21:06:49.119" endtime="20191207 21:06:50.244" critical="yes">SAXParseException: &lt;unknown&gt;:157:121: not well-formed (invalid token)</status>
+</test>
+<status status="FAIL" starttime="20191207 21:06:49.013" endtime="20191207 21:06:50.246"></status>
+</suite>
+<status status="FAIL" starttime="20191207 21:06:48.969" endtime="20191207 21:06:50.252"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="Learn">Learn</stat>
+<stat pass="0" fail="1" id="s1-s1" name="soapTest">Learn.soapTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

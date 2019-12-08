@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.1.2 (Python 3.8.0 on win32)" generated="20191203 20:46:33.636" rpa="false">
+<suite id="s1" name="Test" source="C:\Users\gaura\Downloads\WorkSpace_RF\learn\TestCases\test.robot">
+<test id="s1-t1" name="Robot First TC">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20191203 20:46:33.798" level="INFO">Opening browser 'Chrome' to base url 'Https://facebook.com'.</msg>
+<status status="PASS" starttime="20191203 20:46:33.798" endtime="20191203 20:46:39.275"></status>
+</kw>
+<kw name="Click Link" library="SeleniumLibrary">
+<doc>Clicks a link identified by ``locator``.</doc>
+<arguments>
+<arg>xpath://a[text()='Forgotten account?']</arg>
+</arguments>
+<msg timestamp="20191203 20:46:39.276" level="INFO">Clicking link 'xpath://a[text()='Forgotten account?']'.</msg>
+<status status="PASS" starttime="20191203 20:46:39.276" endtime="20191203 20:46:40.039"></status>
+</kw>
+<status status="PASS" starttime="20191203 20:46:33.796" endtime="20191203 20:46:40.040" critical="yes"></status>
+</test>
+<status status="PASS" starttime="20191203 20:46:33.638" endtime="20191203 20:46:40.041"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" id="s1" name="Test">Test</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
